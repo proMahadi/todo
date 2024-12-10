@@ -20,9 +20,9 @@ const updateTaskList = () =>{
     tasks.forEach(task =>{
         const listItem = document.createElement('li')
 
-        listItem.innerHTML = `<div>
-        ${task.text}
-        </div>`
+        // listItem.innerHTML = `<div>
+        // ${task.text}
+        // </div>`
 
         taskList.append(listItem)
     })
