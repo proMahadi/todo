@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+    color: black;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem 0px;
+    justify-content: center;
+}
+.stats-container{
+    display: flex;
+    align-items: center;
+    gap: 6 0px;
+    padding: 3rem;
+    border-radius: 2rem;
+    border: 2px solid purple;
+}
+.stats-container h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+.stats-container p {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+#progressBar{
+    width: 100%;
+    height: 0.8rem;
+    background: whitesmoke;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+#progress{
+    height: 100%;
+    width: 50%;
+    border-radius: 0.5rem;
+    background: green;
+    transition: all 0.3s ease;
+}
+#numbers{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: purple;
+    color: white;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+input{
+    padding: 1rem;
+    border: 1px solid purple;
+    border-radius: 0.9rem;
+    width: 20rem;
+    outline: none;
+}
+input::placeholder{
+    color: black;
+    text-transform: capitalize;
+}
+button{
+    background: transparent;
+    padding: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    color: purple;
+    border: 1px solid purple;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
