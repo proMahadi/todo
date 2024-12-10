@@ -19,7 +19,7 @@ body{
 .stats-container{
     display: flex;
     align-items: center;
-    gap: 6 0px;
+    gap: 6rem;
     padding: 3rem;
     border-radius: 2rem;
     border: 2px solid purple;
