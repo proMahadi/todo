@@ -94,6 +94,9 @@ form button{
 }
 #task-list{
     width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
 }
 #task-list li{
     width: 100%;
@@ -105,6 +108,9 @@ form button{
     align-items: center;
     justify-content: space-between;
 }
+/* #task-list li .completed span{
+    text-decoration: line-through;
+} */
 #task-list li label{
     display: flex; 
     align-items: center;
@@ -124,4 +130,7 @@ form button{
     display: flex;
     align-items: center;
     gap: 0px 20px;
+}
+.completed span{
+    text-decoration: line-through;
 }
